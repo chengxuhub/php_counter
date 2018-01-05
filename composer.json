@@ -1,0 +1,22 @@
+{
+    "name": "tanel/php-counter",
+    "description": "a constant counter",
+    "type": "library",
+    "keywords": ["php", "counter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tanel",
+            "email": "tanda.arch@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tanel\\Counter\\": "src"
+        }
+    }
+}
